@@ -33,7 +33,7 @@ const BookForm = () => {
                 onChange={e => setAuthor(e.target.value)}
                 required
             />
-            <input type="submit" vaue="Add book"></input>
+            <input type="submit" value="Add book"></input>
         </form>
     );
 };
